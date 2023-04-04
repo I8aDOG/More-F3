@@ -1,29 +1,31 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "simple_f3",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Simple F3",
+  "description": "Adds an extra simplified F3 menu.",
   "authors": [
-    "Me!"
+    "Not Casey"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
     "sources": "https://github.com/FabricMC/fabric-example-mod"
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/simple_f3/icon.png",
 
   "environment": "*",
   "entrypoints": {
-    "main": [
-      "net.fabricmc.example.ExampleMod"
+    "client": [
+      "com.notcasey.simple_f3.SimpleF3"
+    ],
+    "modmenu": [
+      "com.notcasey.simple_f3.SimpleF3ConfigScreen"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "more_f3.mixins.json"
   ],
 
   "depends": {
@@ -34,5 +36,14 @@
   },
   "suggests": {
     "another-mod": "*"
+  },
+
+  "custom": {
+    "modmenu": {
+      "links": {
+
+      },
+      "badges": []
+    }
   }
 }

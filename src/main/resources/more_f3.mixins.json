@@ -1,12 +1,14 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "net.fabricmc.example.mixin",
+  "package": "com.notcasey.simple_f3.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
   ],
   "client": [
-    "ExampleMixin"
+    "TitleScreenMixin",
+    "InGameHudMixin",
+    "KeyboardMixin"
   ],
   "injectors": {
     "defaultRequire": 1

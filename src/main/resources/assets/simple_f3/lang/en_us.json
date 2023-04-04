@@ -1,0 +1,27 @@
+{
+  "simple_f3.midnightconfig.title": "Simple F3 Config",
+
+  "simple_f3.midnightconfig.general_comment": "General",
+  "simple_f3.midnightconfig.display_comment": "Display",
+  "simple_f3.midnightconfig.rendering_comment": "Rendering",
+
+  "simple_f3.midnightconfig.auto_enable": "Auto-Enable Simple F3",
+  "simple_f3.midnightconfig.auto_enable.tooltip": "Automatically enables the Simple F3 screen when entering a world.",
+
+  "simple_f3.midnightconfig.show_game_version": "Show Game Version",
+
+  "simple_f3.midnightconfig.show_fps": "Show FPS",
+
+  "simple_f3.midnightconfig.show_coords": "Show Coordinates",
+
+  "simple_f3.midnightconfig.show_biome": "Show Biome",
+
+  "simple_f3.midnightconfig.right_text": "Move Text Right",
+
+  "simple_f3.midnightconfig.classic_style": "Classic Style",
+  "simple_f3.midnightconfig.classic_style.tooltip": "Renders the Simple F3 screen similar to older versions of Minecraft.",
+
+  "simple_f3.midnightconfig.rainbow_text": "Rainbow Text",
+  "simple_f3.midnightconfig.rainbow_text.tooltip": "Adds rainbow colors to the Simple F3 screen."
+
+}
